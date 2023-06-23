@@ -7,6 +7,7 @@ from schema.logs import Log
 from schema.utils import LogChangeType
 import json
 
+
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////data/database.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
